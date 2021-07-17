@@ -1,0 +1,44 @@
+body,html{
+    height: 100%;
+    background: #209cee;
+}
+.heading1{
+    color: white;
+    text-align: center;
+}
+.todo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.todo p{
+    width: 90%;
+
+}
+.status button{
+    margin: 2px;
+    border-radius: 100px;
+    border: 1px solid lightgrey;
+}
+.complete
+{
+    background-color: skyblue;
+    color: white;
+}
+.delete{
+    background-color:red;
+    color: white;
+}
+input{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0;
+    width: 98%;
+    outline: none;
+}
